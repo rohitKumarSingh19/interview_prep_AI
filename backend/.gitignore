@@ -1,0 +1,77 @@
+# Node modules (never push this!)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.test
+.env.local
+.env.*.local
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Coverage and test results
+coverage/
+*.lcov
+
+# Build and dist folders (optional, if you build your project)
+dist/
+build/
+
+# Debug folder
+.vscode/
+.idea/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel-bundler cache
+.cache/
+
+# Binaries from node-gyp
+build/Release
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Next.js (if used)
+.next/
+
+# Svelte (if used)
+.svelte-kit/
+
+# Nuxt.js (if used)
+.nuxt/
+
+# Remix (if used)
+.build/
+
+# PM2 process file
+.pids
+
+# Local serverless emulation
+.serverless/
+
+# Mac/Linux Trash
+.trash/
